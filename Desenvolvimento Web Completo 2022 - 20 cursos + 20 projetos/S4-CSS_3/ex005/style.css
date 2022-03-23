@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.borda{
+    border: 1px solid red; 
+    background-color: green;
+}
+#borda{
+    border: 1px solid blue;
+    background-color: red;
+}
