@@ -1,0 +1,18 @@
+@charset "UTF-8";
+#cabecalho{
+    background-color: blue;
+    
+}
+#logo{
+    width: 200px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.produtos{
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    background-color: grey;
+}
