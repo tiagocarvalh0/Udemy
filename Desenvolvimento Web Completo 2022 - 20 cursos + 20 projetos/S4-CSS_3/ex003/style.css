@@ -1,0 +1,34 @@
+@charset "UTF-8";
+body{
+    background-color:gray;
+    
+}
+#cabecalho{
+    color: white;
+    background-color: green;
+}
+#corpo{
+    margin: auto;
+    height:100%;
+    width: 80%;
+}
+h1{
+    text-align: center;
+    background-color: greenyellow;
+}
+p{
+    color: black;
+    background-color: white;
+}
+.p01{
+    color: white;
+    background-color: black;
+}
+#p02{
+    color: red;
+    background-color: blue;
+}
+#p03{
+    color:white;
+    background-color: red;
+}
