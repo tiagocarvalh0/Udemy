@@ -1,0 +1,11 @@
+@charset "utf-8";
+.conteudo{
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px; ;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 300px;
+}

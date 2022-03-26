@@ -1,0 +1,20 @@
+@charset "utf-8";
+main{
+    background-color: black;
+}
+article{
+    background-color: rgb(180, 180, 180);
+    float: left;
+    padding:5px ;
+    margin: 10px;
+    width: 300px;
+}
+.clear{
+    clear: both;
+}
+.galeria{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+    float: left;
+}
