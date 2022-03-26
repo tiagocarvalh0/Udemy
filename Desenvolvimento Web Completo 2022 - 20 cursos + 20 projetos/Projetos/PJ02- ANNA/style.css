@@ -30,6 +30,13 @@ article{
     margin: 0px;
     padding: 15px;
 }
+.fotos{
+    background-color: #c1c5b0;
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+    padding: 0.5em;
+}
 h1{
     color: #7f8270;
     text-align: center;
