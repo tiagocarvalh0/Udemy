@@ -1,0 +1,31 @@
+@charset "utf-8";
+body{
+    background-color: #007fc7;
+}
+main{
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    position: relative;
+    margin: auto;
+    max-width: 1000px;
+    min-width: none;
+}
+p{
+    width: 300px;
+}
+.relative{
+    position: relative;
+    
+}
+.absolute{
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top: 125px;
+    right: 30px;
+}
+.fixo{
+    position: fixed;
+    top: auto;
+}

@@ -1,5 +1,13 @@
 @charset "utf-8";
+main{
+    border: 1px solid black;padding: 50px;
+}
 .bloco{
+    margin: 10px;
     border: 1px solid black;
-    display: inline;
+    display:inline;
+
+}
+h1{
+    border: 1px solid black;
 }
