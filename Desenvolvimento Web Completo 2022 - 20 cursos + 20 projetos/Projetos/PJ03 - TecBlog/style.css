@@ -2,10 +2,26 @@
 body{
 }
 main{
+    float: left;
     border: 1px solid black;
     padding: auto;
     margin: auto;
-    max-width: 1000px;
+    max-width: 750px;
     min-width: none;
 }
-
+span{
+    border: 1px solid black;
+    padding: 2px;
+    margin: 2px;
+    float: right;
+    width: 200px;
+}
+.h1_center{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
