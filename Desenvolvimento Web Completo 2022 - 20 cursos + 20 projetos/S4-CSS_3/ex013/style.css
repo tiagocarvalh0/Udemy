@@ -1,0 +1,33 @@
+@charset "utf-8";
+main{
+
+}
+.conteudo1{
+    border: 1px solid red;
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 0;
+}
+.conteudo2{
+    border: 1px solid red;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    z-index: 1;
+      
+}
+.conteudo3{
+    border: 1px solid red;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 160px;
+    left: 160px;
+    z-index:0;
+}
