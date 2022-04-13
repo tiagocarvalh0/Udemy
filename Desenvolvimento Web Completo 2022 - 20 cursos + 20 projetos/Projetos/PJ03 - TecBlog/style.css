@@ -2,11 +2,9 @@
 body{
 }
 main{
-    float: left;
     border: 1px solid black;
-    padding: auto;
     margin: auto;
-    max-width: 750px;
+    max-width: 1000px;
     min-width: none;
 }
 span{
