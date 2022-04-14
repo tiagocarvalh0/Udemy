@@ -1,25 +1,63 @@
 @charset "utf-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e6e6e6;
 }
-main{
-    border: 1px solid black;
-    margin: auto;
-    max-width: 1000px;
-    min-width: none;
+/*---AREA_CABECALHO---*/
+header{
+    background-color: #f7b600;
+    text-align:center;
+    padding: 20px;
+    border: 1px solid green;
 }
-span{
-    border: 1px solid black;
-    padding: 2px;
-    margin: 2px;
-    float: right;
-    width: 200px;
-}
-.h1_center{
-    text-align: center;
+header > h1{
+    margin: 5px;
+    color: #4e4e4e;
+    font-size: 2.5em;
 }
 nav{
-    text-align: center;
+    background-color: #f7b600;
+    text-align:center;
+    padding: 10px;
+}
+nav > a{
+    margin: 0px 11px;
+    color: white;
 }
 a{
     text-decoration: none;
+}
+span{
+    color: white;
+}
+main{
+    border: 1px solid black;
+    max-width: 980px;
+    margin: auto;
+}
+article{
+    border: 1px solid blue;
+    float: left;
+    margin: 10px ;
+    max-width: 700px;
+    
+}
+img{
+    width: 100%;
+}
+.caixa{
+    margin: 10px ;
+    border: 1px solid black;
+    float:  right;
+    height: 150px;
+    width: 220px;
+}
+.caixa > a {
+    text-decoration: none;
+    display: block;
 }
