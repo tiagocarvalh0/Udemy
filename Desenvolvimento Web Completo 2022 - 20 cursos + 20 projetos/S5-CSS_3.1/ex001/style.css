@@ -1,0 +1,41 @@
+@charset "utf-8";
+/*ul{
+    
+    list-style-type:none;
+    padding: 0px;
+    margin: 0px;
+
+}
+li{
+    padding: 5px 20px;
+    background:url(../ex001/imagens/seta.png) no-repeat left center;
+}*/
+ul{
+    list-style-type:none;
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    background:url(./imagens/menu.png) no-repeat left center;
+    padding:10px 25px;
+    width: 150px;
+
+}
+li:hover{
+    
+    padding:10px 25px;
+    background:url(imagens/menu.png) no-repeat right center;
+    width: 150px;
+}
+a{
+    padding: 0px 15px;
+    color: black;
+    display:block;
+    text-decoration:none;
+}
+a:hover{ 
+    padding: 0px 15px;
+    color: white;
+    display: block;
+    text-decoration:none;
+}
