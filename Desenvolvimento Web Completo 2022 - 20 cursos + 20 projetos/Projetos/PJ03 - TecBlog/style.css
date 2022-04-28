@@ -37,6 +37,7 @@ nav> a:hover{
     
 }
 a{
+    color: #f7b600;
     text-decoration: none;
 }
 span{
@@ -44,7 +45,7 @@ span{
 }
 main{
     
-    max-width: 980px;
+    max-width: 990px;
     margin: auto;
 }
 article{
@@ -52,7 +53,7 @@ article{
     background-color: white;
     float: left;
     margin: 10px ;
-    padding: 15px;
+    padding: 20px;
     max-width: 700px;
     
 }
@@ -61,8 +62,7 @@ h1{
 }
 .imagem{
     margin: auto;
-    border: 1px solid red;
-    max-width: 650px;
+    max-width: 700px;
     min-width: none;
 }
 
@@ -72,17 +72,28 @@ img{
 
 .caixa{
     padding: 10px;
-    margin: 10px ;
+    margin: 5px ;
     background-color: white;
     float:  right;
     height: 150px;
-    width: 220px;
+    width: 200px;
 }
 .caixa > a {
     text-decoration: none;
     display: block;
 }
 .caixa > h2 {
+    color: rgb(82, 82, 82);
+    font-size: 1.2em;
     background-color:#e6e6e6;
     padding: 3px;
+}
+.legenda
+{
+    font-size: 0.8em;
+    padding: 3px;
+}
+hr
+{
+    margin: 5px;
 }
