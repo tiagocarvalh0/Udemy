@@ -26,6 +26,7 @@ nav{
     padding: 10px;
 }
 nav > a{
+    padding: 6px;
     margin: 0px 11px;
     color: white;
 }
@@ -33,6 +34,7 @@ nav> a:hover{
     background-color:white ;
     color: #f7b600;
     border-radius: 10px;
+    margin: 0px 11px;
     padding: 6px;
     
 }
@@ -72,7 +74,7 @@ img{
 
 .caixa{
     padding: 10px;
-    margin: 5px ;
+    margin: 10px 5px;
     background-color: white;
     float:  right;
     height: 150px;
@@ -96,4 +98,20 @@ img{
 hr
 {
     margin: 5px;
+}
+.final 
+{
+    font-size: 0.9em;
+}
+footer
+{
+    background-color: #bebdbd;
+    text-align:center;
+    margin: 10px auto;
+    padding: 15px;
+    max-width: 940px;
+}
+.clear
+{
+    clear: both;
 }
