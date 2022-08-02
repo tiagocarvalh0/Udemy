@@ -15,6 +15,11 @@ body
     margin: 0px;
     padding: 0px;
 }
+
+#cabecalho
+{
+    background: url(./imagens/capa.png);
+}
 main
 {
     margin: auto;
