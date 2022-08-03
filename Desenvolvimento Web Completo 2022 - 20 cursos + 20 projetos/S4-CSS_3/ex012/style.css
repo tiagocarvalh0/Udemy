@@ -4,33 +4,30 @@ body{
     margin: 0px;
     padding: 0px;
 }
-main{
-    background-color: white;
-    padding: 50px;
-    margin: 117px auto;
-    margin-bottom: 0px;
-    height: 2000px;
-    max-width: 1000px;
-    min-width: none;
-}
-header{
-    padding: 20px ;
-    border-radius: 0px 10px;
-    background-color: rgb(165, 165, 165);
-}
 
-p{
-    width: 300px;
-}
-
-
-header{
+header
+{
     width: 100%;
     position: fixed;
-    bottom: 550px;
     
-    
+    border-radius: 0px 10px;
+    margin: 0px;
+    padding: 20px;
+    background-color: whitesmoke;
 }
-nav{
-    
+
+header > h1
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    position: relative;
+    top: 77px;
+    background-color: white;
+    margin: auto;
+    padding: 50px;
+    max-width: 1000px;
+    height: 2000px;
 }
