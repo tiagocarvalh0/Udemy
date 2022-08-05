@@ -7,9 +7,8 @@ body{
 
 header
 {
-    width: 100%;
     position: fixed;
-    
+    width: 100%;
     border-radius: 0px 10px;
     margin: 0px;
     padding: 20px;
@@ -23,11 +22,28 @@ header > h1
 }
 
 main{
-    position: relative;
     top: 77px;
     background-color: white;
     margin: auto;
     padding: 50px;
-    max-width: 1000px;
+    max-width: 800px;
     height: 2000px;
+}
+p
+{
+    border: 1px solid rgb(255, 0, 0);
+    width: 400px;
+}
+.relative
+{
+    border: 1px solid black;
+    position: fixed;
+    left: 50%;
+}
+
+.absolute
+{
+    border: 1px solid blue;
+    position: absolute;
+    left: 50%;
 }
