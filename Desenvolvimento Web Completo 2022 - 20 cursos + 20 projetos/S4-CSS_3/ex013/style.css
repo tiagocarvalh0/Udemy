@@ -2,32 +2,34 @@
 main{
 
 }
-.conteudo1{
-    border: 1px solid red;
-    background-color: orange;
-    width: 200px;
-    height: 200px;
+#conteudo1
+{
     position: absolute;
-    z-index: 0;
+    background-color: gray;
+    border: 1px solid red;
+    width:150px;
+    height:150px;
+    z-index: 3;
 }
-.conteudo2{
-    border: 1px solid red;
-    background-color: green;
-    width: 200px;
-    height: 200px;
+#conteudo2
+{
     position: absolute;
+    background-color: blue;
+    border: 1px green solid ;
+    width: 150px;
+    height: 150px;
     top: 80px;
     left: 80px;
-    z-index: 1;
-      
+    z-index: 2;
 }
-.conteudo3{
-    border: 1px solid red;
-    background-color: blue;
-    width: 200px;
-    height: 200px;
+#conteudo3
+{ 
     position: absolute;
+    background-color: green;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
     top: 160px;
     left: 160px;
-    z-index:0;
+    z-index: 1;
 }

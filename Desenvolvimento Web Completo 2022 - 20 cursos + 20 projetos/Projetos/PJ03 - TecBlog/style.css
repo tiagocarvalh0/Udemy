@@ -1,117 +1,76 @@
-@charset "utf-8";
-*{
+@charset "UTF-8";
+
+body
+{
+    background-color: rgb(209, 209, 209);
     margin: 0px;
     padding: 0px;
 }
-body{
-    font-size: 1em;
+
+header
+{
+    background-color: orange;
+    border: 1px solid yellow;
+    text-align: center;
+}
+#divlogo
+{
+    margin: 25px;
+}
+.logo
+{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #e6e6e6;
+    font-size: 2.6em;
 }
-/*---AREA_CABECALHO---*/
-header{
-    background-color: #f7b600;
-    text-align:center;
-    padding: 20px;
-    
+#logo1
+{
+    color: gray;
 }
-header > h1{
-    margin: 5px;
-    color: #4e4e4e;
-    font-size: 2.5em;
-}
-nav{
-    background-color: #f7b600;
-    text-align:center;
-    padding: 10px;
-}
-nav > a{
-    padding: 6px;
-    margin: 0px 11px;
+#logo2
+{
     color: white;
 }
-nav> a:hover{
-    background-color:white ;
-    color: #f7b600;
-    border-radius: 10px;
-    margin: 0px 11px;
-    padding: 6px;
-    
+
+nav
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.0em;
+    margin: 15px;
 }
-a{
-    color: #f7b600;
-    text-decoration: none;
-}
-span{
+
+.menu
+{
     color: white;
-}
-main{
-    
-    max-width: 990px;
-    margin: auto;
-}
-article{
-
-    background-color: white;
-    float: left;
-    margin: 10px ;
-    padding: 20px;
-    max-width: 700px;
-    
-}
-h1{
-    color: #f7b600;
-}
-.imagem{
-    margin: auto;
-    max-width: 700px;
-    min-width: none;
-}
-
-img{
-    width:100%;
-}
-
-.caixa{
-    padding: 10px;
-    margin: 10px 5px;
-    background-color: white;
-    float:  right;
-    height: 150px;
-    width: 200px;
-}
-.caixa > a {
     text-decoration: none;
-    display: block;
+    margin: 20px;
 }
-.caixa > h2 {
-    color: rgb(82, 82, 82);
-    font-size: 1.2em;
-    background-color:#e6e6e6;
-    padding: 3px;
-}
-.legenda
+
+main
 {
-    font-size: 0.8em;
-    padding: 3px;
+    border: 1px solid black;
+    padding: 0px;
+    margin: auto;
+    max-width: 1080px;
 }
-hr
+#noticas
 {
-    margin: 5px;
+    display: inline;
+    width: 700px;
+    margin: 0px;
+    padding: 0px;
 }
-.final 
+.noticia00
 {
-    font-size: 0.9em;
-}
-footer
-{
-    background-color: #bebdbd;
-    text-align:center;
-    margin: 10px auto;
-    padding: 15px;
-    max-width: 940px;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
 }
 .clear
 {
-    clear: both;
+    clear: right;
+}
+
+.menulateral
+{
+    display: inline;
 }

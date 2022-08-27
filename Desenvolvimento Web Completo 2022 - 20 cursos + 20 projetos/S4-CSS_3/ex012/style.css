@@ -4,7 +4,16 @@ body{
     margin: 0px;
     padding: 0px;
 }
+/*
+position relative: - segue o fluxo do documento.
+                   - posição original.
 
+position fixed: - n segue o fluxo do documento.
+                - fixo na tela.
+                
+position absolute: - n segue o fluxo do documento.
+                   - basesado no conteiner(!= de static).
+*/
 header
 {
     position: fixed;
@@ -22,6 +31,7 @@ header > h1
 }
 
 main{
+    float: left;
     top: 77px;
     background-color: white;
     margin: auto;
@@ -37,13 +47,11 @@ p
 .relative
 {
     border: 1px solid black;
-    position: fixed;
-    left: 50%;
+    position: absolute;
+    left:50%; 
 }
 
 .absolute
 {
     border: 1px solid blue;
-    position: absolute;
-    left: 50%;
 }
